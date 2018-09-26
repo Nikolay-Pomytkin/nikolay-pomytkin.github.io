@@ -7,18 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	</head>
 	<body style="background-color: black;">
-    <audio autoplay="autoplay">
-      <source src="/music/1.mp3">
-      <source src="/music/2.mp3">
-      <source src="/music/3.mp3">
-      <source src="/music/1.mp3">
-      <source src="/music/2.mp3">
-      <source src="/music/3.mp3">
-      <source src="/music/1.mp3">
-      <source src="/music/2.mp3">
-      <source src="/music/3.mp3">
-      Your browser does not support the audio element.
-    </audio>
+
     <div id="demo" class="carousel slide" data-ride="carousel"  style="height: 100%;width: 100%;left: 0;top: 0;overflow: hidden;position: fixed;">
 
       <!-- Indicators -->
@@ -28,7 +17,9 @@
         <li data-target="#demo" data-slide-to="2"></li>
         <li data-target="#demo" data-slide-to="3"></li>
         <li data-target="#demo" data-slide-to="4"></li>
-
+        <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="6"></li>
+        <li data-target="#demo" data-slide-to="7"></li>
       </ul>
 
       <!-- The slideshow -->
@@ -48,7 +39,15 @@
         <div class="carousel-item">
           <img src="images/pic5.jpg" alt="5" style="display: block;margin-bottom:auto;margin-left: auto;margin-right: auto;width: 75%;">
         </div>
-
+        <div class="carousel-item">
+          <img src="images/pic6.jpg" alt="6" style="display: block;margin-bottom:auto;margin-left: auto;margin-right: auto;width: 75%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pic7.jpg" alt="6" style="display: block;margin-bottom:auto;margin-left: auto;margin-right: auto;width: 75%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pic8.jpg" alt="6" style="display: block;margin-bottom:auto;margin-left: auto;margin-right: auto;width: 75%;">
+        </div>
       </div>
 
       <!-- Left and right controls -->
@@ -61,7 +60,7 @@
 
     </div>
     <script>
-    $('.carousel').carousel()
+    $('.carousel').carousel(ride="false",interval=100000)
 
     </script>
 
