@@ -37,6 +37,15 @@
             }
         </style>
     
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112015046-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-112015046-1');
+        </script>
+
     </head>
 
     <body>
@@ -67,9 +76,9 @@
                                                 </p>
                                                 <div class="row">
 
-                                                    <div class="col"><a href="https://github.com/Nikolay-Pomytkin" class="btn btn-light"><i class="fab fa-github"></i> Github</a></div>
-                                                    <div class="col"><a href="https://www.linkedin.com/in/nikolay-pomytkin-855a60170/" class="btn btn-light"><i class="fab fa-linkedin"></i> LinkedIn</a></div>
-                                                    <div class="col"><a href="https://twitter.com/nikpomytkin" class="btn btn-light"><i class="fab fa-twitter"></i> Twitter</a></div>
+                                                    <div class="col"><a href="https://github.com/Nikolay-Pomytkin" class="btn btn-light" id="github-analytics"><i class="fab fa-github"></i> Github</a></div>
+                                                    <div class="col"><a href="https://www.linkedin.com/in/nikolay-pomytkin-855a60170/" class="btn btn-light" id="linkedin-analytics"><i class="fab fa-linkedin"></i> LinkedIn</a></div>
+                                                    <div class="col"><a href="https://twitter.com/nikpomytkin" class="btn btn-light"><i class="fab fa-twitter" id="twitter-analytics"></i> Twitter</a></div>
                                                     <!-- <div class="col"><a href="#" class="btn btn-light"><i class="fab fa-instagram"></i> Instagram</a></div> -->
                                                
                                                 </div>
@@ -90,16 +99,16 @@
                                             <h2 class="display-4">I'm <b>Nikolay Pomytkin</b>,</h2>
                                             <p class="lead">a <i>sophomore</i><sup>*</sup> at the <b>University of Maryland, College Park</b> building a career in Computer Science.</p>
                                             <hr class="my-4">
-                                            <p class="lead">At the University of Maryland, I am currently helping organize the largest hackathon on the east coast<sup><a class="text-decoration-none" href="https://bit.camp/">[1]</a></sup>,
-                                                             conducting research in the FIRE Capital One Machine Learning stream<sup><a class="text-decoration-none" href="https://fire.umd.edu/streams-COML.html">[2]</a></sup>,
-                                                             and teaching others Calculus in the GSS program<sup><a class="text-decoration-none" href="https://www.counseling.umd.edu/academic/gss/">[3]</a></sup>.</p>
+                                            <p class="lead">At the University of Maryland, I am currently helping organize the largest hackathon on the east coast<sup><a class="text-decoration-none" href="https://bit.camp/" id="bitcamp-analytics">[1]</a></sup>,
+                                                             conducting research in the FIRE Capital One Machine Learning stream<sup><a class="text-decoration-none" href="https://fire.umd.edu/streams-COML.html" id="COML-analytics">[2]</a></sup>,
+                                                             and teaching others Calculus in the GSS program<sup><a class="text-decoration-none" href="https://www.counseling.umd.edu/academic/gss/" id="GSS-analytics">[3]</a></sup>.</p>
                                             <p>
                                                 * = sophomore by credit hours, enrolled at UMD since Aug. 2018
                                             
                                                 <ol class="list-unstyled">
-                                                    <li>1) <a class="text-decoration-none" href="https://bit.camp/">Bitcamp</a></li>
-                                                    <li>2) First-Year Innovation and Research Experience: <a class="text-decoration-none" href="https://fire.umd.edu/streams-COML.html">Capital One Machine Learning</a></li>
-                                                    <li>3) University of Maryland Counseling Center: <a class="text-decoration-none" href="https://www.counseling.umd.edu/academic/gss/">Guided Study Sessions Program</a></li>
+                                                    <li>1) <a class="text-decoration-none" href="https://bit.camp/" id="bitcamp-analytics">Bitcamp</a></li>
+                                                    <li>2) First-Year Innovation and Research Experience: <a class="text-decoration-none" href="https://fire.umd.edu/streams-COML.html" id="COML-analytics">Capital One Machine Learning</a></li>
+                                                    <li>3) University of Maryland Counseling Center: <a class="text-decoration-none" href="https://www.counseling.umd.edu/academic/gss/" id="GSS-analytics">Guided Study Sessions Program</a></li>
                                                 </ol>
                                             </p>
                                         </div>
