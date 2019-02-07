@@ -53,13 +53,13 @@
     <body>
 
         <!-- Start carousel-->
-        <div id="carouselMain" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div id="carouselMain" class="carousel slide" data-ride="carousel">
                
                 <!-- Start carousel content-->
                 <div class="carousel-inner">
                    
                     <!-- Carousel item 1: First Page -> intro -->
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-interval="100000">
                         <div class="container">
                             <div class="card-deck">
                             <div class="row">
@@ -125,21 +125,24 @@
                     </div>
 
                     <!-- Carousel item 2: Experience-->
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="100000">
                         <div class="container">
                             <div class="d-flex align-items-center justify-content-center min-vh-100">
                                 
-                                <div class="card bg-light mb-3">
+                                <div class="card bg-light mb-3" style="min-width: 80vw">
                                     <div class="card-body">
-                                        <h1 class="display-4 mx-auto">Experience</h1>
-
+                                        <div class="card-title text-center">
+                                            <h1 class="display-4 mx-auto">Experience</h1>
+                                        </div>
+                                    </div>
                                         <!-- Card deck organizes cards containing experiences-->
+                                        <div class="card-footer">
                                         <div class="card-deck">
 
                                             <!--  -->
                                             <div class="card">
                                                 
-                                                <img src="./images/..." class="card-img-top" alt="FIRE COML">
+                                                <img src="./images/coml.png" class="card-img-top" alt="FIRE COML">
                                                 
                                                 <div class="card-body">
                                                     <h5 class="card-title">FIRE: Capital One Machine Learning - Research Fellow</h5>
@@ -160,7 +163,7 @@
 
                                             <div class="card">
                                                 
-                                                <img src="./images/..." class="card-img-top" alt="BoBuy">
+                                                <img src="./images/bobuy.PNG" class="card-img-top" alt="BoBuy">
                                                 
                                                 <div class="card-body">
                                                     <h5 class="card-title">BoBuy - Web Developer Intern</h5>
@@ -180,7 +183,7 @@
                                             
                                             <div class="card">
                                                 
-                                                <img src="./images/..." class="card-img-top" alt="GSS">
+                                                <img src="./images/counselingcenter.jpg" class="card-img-top" alt="GSS">
                                                 
                                                 <div class="card-body">
                                                     <h5 class="card-title">Guided Study Session Leader</h5>
@@ -200,9 +203,9 @@
                                             
                                             <div class="card">
                                                 
-                                                <img src="./images/..." class="card-img-top" alt="BitCamp">
+                                                <img src="./images/bitcamp.jpg" class="card-img-top" alt="BitCamp">
                                                 
-                                                <div class="card-body">
+                                                <div class="card-body align-bottom">
                                                     <h5 class="card-title">Bitcamp - Sponsorship Organizer</h5>
                                                     <p class="card-text">
                                                         <ul class="list-unstyled">
@@ -227,7 +230,7 @@
                     </div>
 
                     <!-- Carousel item 3: Projects-->
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="100000">
                    
                         <div class="d-flex align-items-center justify-content-center min-vh-100">
                             <h1 class="display-1">THREE</h1>
@@ -236,13 +239,13 @@
                     </div>
 
                     <!-- Carousel item 4: Additional Links/Resume-->
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                    
                         <div class="d-flex align-items-center justify-content-center min-vh-100">
                             <h1 class="display-1">FOUR</h1>
                         </div>                       
                        
-                    </div>
+                    </div> -->
                 
                 </div>
                 <!-- End carousel content -->
