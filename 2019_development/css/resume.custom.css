@@ -1,0 +1,18 @@
+/* This is the custom CSS stylesheet I have set up to reduce the instances of 
+*  using style="" inside of my HTml code
+*
+*/
+
+.title-name {
+    font-family: 'Saira Extra Condensed',serif;
+    text-transform: uppercase;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.margin-top-3 {
+    margin-top: 3%;
+}

@@ -15,6 +15,6 @@ September 2019 Updates:
     - Navbar header links to sections in site
   - Different colors for sections 
   - Consistent style across site
-
+  - Better SEO optimization
 
 This site was redesigned using Twitter's Bootstrap Framework in Dec2018/Jan2019. It includes a carousel with 3 slides, each containing an important part of my portfolio.
