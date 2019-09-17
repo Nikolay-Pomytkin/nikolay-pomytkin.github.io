@@ -5,11 +5,20 @@ LinkedIn Message Cover Letter form
 
 Hi Gabriela!
  
-I hope you're having a great week so far! 
+I hope you're having a great week so far! My name is Nikolay and I'm a sophomore double-majoring in Computer Science and Economics at UMD.
 I connected with you a few months ago and since then, I've seen quite a few posts from you about Vimeo's internship program and was just wondering if you'd be willing to answer some questions I've got about Vimeo Internship positions.
 I applied online for the internship positions that opened just recently, however I am quite interested in finding out more about the kind of projects interns have worked on during their internships at Vimeo in the past.
 Are interns typically integrated directly into the work of a team they're placed on (basically doing the same work a FTE does) or do they get assigned to separate projects and work on these over the summer under the guidance of a mentor?
+What is the application process like for interns? How long does it usually take?
 
+In addition to these general questions about Vimeo internships, I'm also quite interested in what teams Vimeo is hiring for and what skillsets you're looking for. 
+This summer I interned at a financial services company called DTCC in the Enterprise Infrastructure department and learned quite a bit about the infrastructure that the applications processing billions of dollars of trades every day.
+Coming in as an intern, my team expected me to mostly work on shell scripting and systems administration tasks, however I didn't feel like I was learning much and that my skills were fully being utilized, so I came up with a project which I proposed to my boss and ended up working on for the rest of the summer.
+Throughout the rest of the summer, I worked on this project and learned quite a bit about web application development, infrastructure security, DevOps practices, and the process of deploying applications into production environments (my project eventually ended up getting deployed on a production server.)
+If you have any teams in infrastructure looking for interns, or any other teams looking for interns with backend development experience, I'd really appreciate it if you could look into how I'd fit into these teams and possibly give me some information about how I could fit into these teams.
+
+I'm sure you're a really busy person and may not have time to answer my questions, but I would really appreciate it if you could.
+I think Vimeo is an awesome product (I've used it quite a bit for uploading videos as a film-maker in High school) and I'd really love to learn more about what its like to work there.
 
 Thanks a ton,
 Nikolay Pomytkin
