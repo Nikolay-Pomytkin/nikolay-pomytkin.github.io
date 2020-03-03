@@ -20,7 +20,7 @@
 
   <!-- START OF NAVBAR-->
   <nav>
-    <div class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">Ethics Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
             <a class="nav-link" href="#introduction">Introduction</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#lecturereflections">Lecture Reflections</a>
+            <a class="nav-link" href="#reflections">Lecture Reflections</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#references">References</a>
@@ -49,8 +49,22 @@
 
   <div class="container">
 
+        <!-- TITLE -->
+        <div class="row" style="margin-top: 7%;">
+          <div class="col-md-8 offset-md-2 text-center">
+            <div class="card">
+              <div class="card-header">
+                <h1 style="font-weight: bold;"><b>Engineering Ethics: Learning How to be the "Good" Engineer</b></h1>
+              </div>
+              <div class="card-body">
+                "Six essential qualities that are the key to success include sincerity, personal integrity, humility, courtesy, wisdom, and charity." – Dr. William Menninger
+              </div>
+            </div>
+          </div>
+        </div>
+
     <!-- TABLE OF CONTENTS-->
-    <div class="row" id="tableofcontents" style="margin-top: 8%">
+    <div class="row" id="tableofcontents" style="margin-top: 5%">
       <div class="col-8 offset-md-2">
         <div class="card">
           <div class="card-header">
@@ -58,7 +72,18 @@
           </div>
           <ul class="list-group list-group-flush text-center">
             <li class="list-group-item h5"><a href="#introduction">Personal Introduction</a></li>
-            <li class="list-group-item h5"><a href="#lecturereflections">Lecture Reflections</a></li>
+            <li class="list-group-item h5">
+              <a href="#reflections" style="margin-bottom:3 %;">Lecture Reflections</a>
+              <ul class="list-group text-center card" style="margin-top:2%;">
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseOne" ><a href="#headingOne">Lecture 1 (2/4/20)</a></li>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseTwo" ><a href="#headingTwo">Lecture 2 (2/11/20)</a></li>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseThree" ><a href="#headingThree">Lecture 3 (2/13/20)</a></li>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseFour" ><a href="#headingFour">Lecture 4 (2/18/20)</a></li>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseFive" ><a href="#headingFive">Lecture 5 (2/20/20)</a></li>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseSix" ><a href="#headingSix">Lecture 6 (2/25/20)</a></li>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseSeven" ><a href="#headingSeven">Lecture 7 (2/27/20)</a></li>
+              </ul>
+            </li>
             <li class="list-group-item h5" style="border-bottom: 0px;"><a href="#references">References (Works
                 Cited)</a></li>
           </ul>
@@ -71,8 +96,10 @@
 
     <!-- START OF INTRODUCTION -->
 
+
     <div class="row" id="introduction" class="custom-intro"
       style="margin-top: 5%; border-top: 1px solid lightgrey; padding-top: 5%; padding-bottom: 5%; border-bottom: 1px solid lightgrey; margin-bottom: 5%;">
+
 
       <!-- Profile picture card-->
       <div class="col-md-4">
@@ -81,15 +108,11 @@
 
           <img src="./assets/profile.jpg" class="card-img-top" alt="Nikolay Pomytkin profile picture">
 
-          <a href="https://github.com/Nikolay-Pomytkin" class="card-footer btn btn-light" id="github-analytics"><i
-              class="fab fa-github"></i> Github</a>
           <a href="https://www.linkedin.com/in/nikolay-pomytkin-855a60170/" class="card-footer btn btn-light"
             id="linkedin-analytics"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a href="https://twitter.com/nikpomytkin" class="card-footer btn btn-light"><i class="fab fa-twitter"
-              id="twitter-analytics"></i> Twitter</a>
           <a href="https://instagram.com/nikolayp16" class="card-footer btn btn-light"><i class="fab fa-instagram"></i>
             Instagram</a>
-          <a href="./documents/NikolayPomytkin_resume_September2019-3.pdf" class="card-footer btn btn-light"><i
+          <a href="../documents/NikolayPomytkin_resume_September2019-3.pdf" class="card-footer btn btn-light"><i
               class="far fa-newspaper"></i> Resume</a>
         </div>
 
@@ -101,35 +124,19 @@
         <div class="card bg-light mb-3">
           <div class="card-body">
             <div class="card-title">
-              <h1 class="display-3">Hello there!</h1>
-              <h2 class="display-4">I'm <b>Nikolay Pomytkin</b>,</h2>
+              <h2 class="display-5">Hello there,</h1>
+              <h3 class="display-4">I'm <b>Nikolay Pomytkin</b>!</h2>
             </div>
             <div class="card-text">
-              <p class="lead">a sophomore at the <b>University of Maryland, College Park</b> building a career in
-                Computer Science.</p>
+              <p class="lead">
+                a sophomore <b>Computer Science</b> and <b>Economics</b> double major at the University of Maryland, College Park.
+              </p>
               <hr class="my-4">
-              <p class="lead">At the University of Maryland, I am currently helping organize the largest hackathon on
-                the east coast<sup><a class="text-decoration-none" href="https://bit.camp/"
-                    id="bitcamp-analytics">[1]</a></sup>,
-                conducting research in the FIRE Capital One Machine Learning stream<sup><a class="text-decoration-none"
-                    href="https://fire.umd.edu/streams-COML.html" id="COML-analytics">[2]</a></sup>, and
-                teaching others Calculus in the GSS program<sup><a class="text-decoration-none"
-                    href="https://www.counseling.umd.edu/academic/gss/" id="GSS-analytics">[3]</a>,</sup>.
+              <p class="lead">
+                Although I currently live in Maryland during the school year, originally I'm from the small town of Millburn, New Jersey, which
+                is approximately 35 miles from New York City.
               </p>
             </div>
-          </div>
-          <div class="card-footer text-muted">
-            <ol class="list-unstyled">
-
-              <li>1) <a class="text-decoration-none" href="https://bit.camp/" id="bitcamp-analytics">Bitcamp</a> -
-                University of Maryland's flagship hackathon</li>
-              <li>2) First-Year Innovation and Research Experience: <a class="text-decoration-none"
-                  href="https://fire.umd.edu/streams-COML.html" id="COML-analytics">Capital One Machine Learning</a>
-              </li>
-              <li>3) University of Maryland Counseling Center: <a class="text-decoration-none"
-                  href="https://www.counseling.umd.edu/academic/gss/" id="GSS-analytics">Guided Study Sessions
-                  Program</a></li>
-            </ol>
           </div>
         </div>
       </div>
@@ -139,7 +146,7 @@
 
 
     <!-- DAILY REFLECTIONS -->
-    <div class="row" id="#lecturereflections"
+    <div class="row" id="reflections"
       style="margin-top: 5%; border-top: 1px solid lightgrey; padding-top: 5%;">
       <div class="col-md-8 offset-md-2">
         <div class="card">
@@ -182,7 +189,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" id="headingTwo" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <div class="card-header" id="headingThree" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               <h2 class="mb-0">
                   Lecture 3 (2/13/20):
               </h2>
@@ -194,7 +201,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" id="headingTwo" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+            <div class="card-header" id="headingFour" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
               <h2 class="mb-0">
                   Lecture 4 (2/18/20):
               </h2>
@@ -206,7 +213,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" id="headingTwo" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+            <div class="card-header" id="headingFive" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
               <h2 class="mb-0">
                   Lecture 5 (2/20/20):
               </h2>
@@ -230,7 +237,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" id="headingTwo" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+            <div class="card-header" id="headingSeven" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
               <h2 class="mb-0">
                   Lecture 7 (2/27/20):
               </h2>
@@ -249,7 +256,7 @@
 
 
   <!-- START OF REFERENCES-->
-  <div class="row" id="#references"
+  <div class="row" id="references"
     style="margin-top: 5%; border-top: 1px solid lightgrey; padding-top: 5%; padding-bottom: 5%; border-bottom: 1px solid lightgrey; margin-bottom: 5%;">
     <div class="col-md-8 offset-md-2">
       <div class="card">
