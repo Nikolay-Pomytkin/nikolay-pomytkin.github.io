@@ -13,6 +13,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/custom.css" />
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" integrity="sha256-aa0xaJgmK/X74WM224KMQeNQC2xYKwlAt08oZqjeF0E=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
+
   <title>Nikolay's Ethics Portfolio</title>
 </head>
 
@@ -88,12 +91,13 @@
                 <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseSeven"><b><a href="#headingSeven">Lecture 7 (2/27/20)</a></li></b>
                 <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseEight"><b><a href="#headingEight">Lecture 8 (3/3/20)</a></li></b>
                 <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseNine"><b><a href="#headingNine">Lecture 9 (3/5/20)</a></li></b>
-                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapse10"><b><a href="#heading10">Lecture 10 (3/10/20)</a></li></b>
-                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapse11"><b><a href="#heading11">Lecture 11 (3/12/20)</a></li></b>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseLectureTen"><b><a href="#headingLectureTen">Lecture 10 (3/10/20)</a></li></b>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseLectureEleven"><b><a href="#headingLectureEleven">Lecture 11 (3/12/20)</a></li></b>
                 <h4 style="border-bottom: 0px;"><li class=list-group-item type="button" style="border-bottom: 0px; padding-bottom: 0px;">Break: Weeks of 3/16-3/20 and 3/23-3/27</b></li></h4>
                 <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseTen"><b><a href="#headingTen">START OF ONLINE LEARNING:</b></a></li></b>
                 <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseTen"><b><a href="#headingTen">Online Week 1 (3/30-4/3)</a></li></b>
                 <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseEleven"><b><a href="#headingEleven">Online Week 2 (4/6-4/10)</a></li></b>
+                <li class=list-group-item type="button" data-toggle="collapse" data-target="#collapseTwelve"><b><a href="#headingTwelve">Online Week 3 (4/13-4/17)</a></li></b>
               </ul>
             </li>
             <li class="list-group-item h5"><a href="#filterbubble">Filter Bubble</a></li>
@@ -251,8 +255,8 @@
     
     <div class="row" style="margin-top: 2%;">
       <div class="col-md-2 offset-md-5 text-center">
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne,#collapseTwo,#collapseThree,#collapseFour,#collapseFive,#collapseSix,#collapseSeven,#collapseEight,#collapseNine">
-          Toggle All ↓
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseOne,#collapseTwo,#collapseThree,#collapseFour,#collapseFive,#collapseSix,#collapseSeven,#collapseEight,#collapseNine">
+          <b>Toggle All</b> ↓
         </button>
       </div>
     </div>
@@ -530,14 +534,25 @@
 
 
           <div class="card">
-            <div class="card-header" id="headingTen" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapseTwo">
+            <div class="card-header" id="headingLectureTen" type="button" data-toggle="collapse" data-target="#collapseLectureTen" aria-expanded="false" aria-controls="collapseTwo">
               <h2 class="mb-0 text-center">
                   <b>Lecture 10 (3/10/20):</b>
               </h2>
             </div>
-            <div id="collapse10" class="collapse" aria-labelledby="heading10"  >
+            <div id="collapseLectureTen" class="collapse" aria-labelledby="headingLectureTen"  >
               <div class="card-body">
-                The main focus of this lecture was Culture and how it relates to engineering ethics.
+                The main focus of this lecture was culture and how it relates to engineering ethics. One interactive activity that we did during class had us think about 
+                where we would say we're from based on where we're located. My answers changed quite a bit as the locations changed, but the overall trend was that I changed
+                where I said I was from to be more and more specific as the location became closer and closer to where I live. This introduced the concept of situational
+                awareness: the idea that context matter in how we behave and since different people and different places have different knowledge bases, so you have to speak
+                in a certain way so you have a mutual understanding. 
+                <!-- INSERT IMAGES HERE: progression of locations and how i referred to my identity 
+                        - Russia
+                        - NY
+                        - New Jersey
+                        - Essex County
+                        - Millburn
+                -->
               </div>
             </div>
           </div>
@@ -545,13 +560,26 @@
 
 
           <div class="card">
-            <div class="card-header" id="heading11" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapseTwo">
+            <div class="card-header" id="headingLectureEleven" type="button" data-toggle="collapse" data-target="#collapseLectureEleven" aria-expanded="false" aria-controls="collapseTwo">
               <h2 class="mb-0 text-center">
                   <b>Lecture 11 (3/12/20):</b>
               </h2>
             </div>
-            <div id="collapse11" class="collapse" aria-labelledby="heading11"  >
+            <div id="collapseLectureEleven" class="collapse" aria-labelledby="headingLectureEleven">
               <div class="card-body">
+                This was the last lecture before we left for spring break, and unfortunately the last in-person lecture that we had this semester. There was definitely a
+                weird mood going on between the students especially at the beginning, as we were discussing how school would change as a result of going online. This was also
+                the day after I had to stay up a bit late because I was working with the Bitcamp directing team regarding what actions we would take in response to the COVID-19 
+                pandemic (we ended up cancelling the event, something that happened to most in-person events for the rest of the spring semester). I was definitely feeling a bit
+                down at first, but then I really ended up enjoying the guest speaker we had that day: Adith Thummalapali (I think I spelled that right). Adith talked about
+                accessibility issues on UMD's campus and the Accessibility report that he published along with ADS. I think it was really inspirational to hear his story about
+                how he worked hard to make the university body more aware of what kinds of issues with accessibility exist on campus. He also related it really well with the 
+                problem solving and design that we do as engineers, and made me think deeper about how I go about solving engineering issues. I came out of this lecture with 
+                a lot of motivation and enthusiasm because of his invigorating presentation.
+                <!-- IMAGES HERE OF:
+                  - Accessibility report?
+                  - accessibility in engineering
+                -->
               </div>
             </div>
           </div>
@@ -564,8 +592,22 @@
                   <b>Online Week 1 (3/30-4/3):</b>
               </h2>
             </div>
-            <div id="collapseTen" class="collapse" aria-labelledby="headingNine"  >
+            <div id="collapseTen" class="collapse" aria-labelledby="headingNine">
               <div class="card-body">
+                Although this isn't really related to ENEE200, I take a quick second to recognize the fact that transitioning to online learning in such an abrupt way was
+                definitely a difficult adjustment on many people, students and professors alike. I'm glad that the university is having a P/F grading policy this semester,
+                it was a really great move by the school to recognize the kinds of struggles that many students may be having now. I'm hoping that everyone stays safe and healthy
+                as a result of quarantining and social distancing: we'll surely get through this together. The main activity from this week was a collaborative exercise in examining
+                the accessibility of the ELMS course website for ENEE200, continuing the ideas we were talking about before we went on break. This was definitely a fun activity as
+                it was nice to work with my lecture group again and it definitely gave me a different perspective on how websites can be designed with accessibility in mind. I applied
+                some of the things I learned about accessibility of websites to the design of this website, which I think is pretty cool.
+                <br/><br/>
+                I think the online activities of week 2 were a good sign of what's to come. Although these online activities definitely aren't the same experience that we get
+                from in-person lecture in this course, I'm still looking forward to how ENEE200 will continue online for the rest of the semester. This was a difficult week for 
+                me because of the transition to online learning. I was just starting to adjust my schedule and figure out how to manage my time. Online learning is a completely different 
+                experience and environment from what an in-person education is like. I had to spend some time figuring out what the best way is to proceed with my classes, including this
+                class. The activities from this week were definitely interesting and it was nice to see how we still have the opportunity to work with out groups for the rest of the semester
+                on various different tasks and challenges.  
               </div>
             </div>
           </div>
@@ -578,8 +620,22 @@
                   <b>Online Week 2 (4/6-4/10):</b>
               </h2>
             </div>
-            <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"  >
+            <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven">
               <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwelve" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo">
+              <h2 class="mb-0 text-center">
+                  <b>Online Week 3 (4/13-4/17):</b>
+              </h2>
+            </div>
+            <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve">
+              <div class="card-body">
+                
               </div>
             </div>
           </div>
@@ -589,14 +645,99 @@
     </div>
     <!-- END OF LECTURE REFLECTIONS-->
 
+    <!-- START OF chart.js sentiment graph -->
+    <div class="row" id="filterbubble" style="margin-top:2%; padding-bottom: 5%; border-bottom: 2px solid lightgrey; margin-bottom: 5%;">
+      <div class="col-md-10 offset-md-1">
+        <div class="card">
+          <div class="card-header text-center">
+            <b><h2>Class Sentiment Graph</h2></b>
+          </div>
+          <canvas id="canvas" style="display: block; width: 1012px; height: 506px;" width="1012" height="506" class="chartjs-render-monitor"></canvas>
+          <script>
+            var config = {
+              type: 'line',
+              data: {
+                labels: ['Lect  ', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                  label: 'My First dataset',
+                  backgroundColor: "#FF0000",
+                  borderColor: "#FF0000",
+                  data: [
+                    1,2,3,4,5,6,7
+                  ],
+                  fill: false,
+                }, {
+                  label: 'My Second dataset',
+                  fill: false,
+                  backgroundColor: "#0000FF",
+                  borderColor: "#0000FF",
+                  data: [
+                    1,2,3,4,5,6,7
+                  ],
+                }]
+              },
+              options: {
+                responsive: true,
+                title: {
+                  display: true,
+                  text: 'Chart.js Line Chart'
+                },
+                tooltips: {
+                  mode: 'index',
+                  intersect: false,
+                },
+                hover: {
+                  mode: 'nearest',
+                  intersect: true
+                },
+                scales: {
+                  xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                      display: true,
+                      labelString: 'Month'
+                    }
+                  }],
+                  yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                      display: true,
+                      labelString: 'Value'
+                    }
+                  }]
+                }
+              }
+            };
+        
+            window.onload = function() {
+              var ctx = document.getElementById('canvas').getContext('2d');
+              window.myLine = new Chart(ctx, config);
+            };
+        
+
+        
+
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- END OF CHART.JS -->
+
     <!-- START OF FILTER BUBBLE ACTIVITY-->
 
     <div class="row" id="filterbubble" style="margin-top:2%; padding-bottom: 5%; border-bottom: 2px solid lightgrey; margin-bottom: 5%;">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-md-10 offset-md-1">
         <div class="card">
+          
           <div class="card-header text-center">
-            <h3><b>Filter Bubble Activity</b></h3>
+            <h1><b>Filter Bubble Activity</b></h3>
           </div>
+
+          <div class="card-body">
+            Test
+          </div>
+
         </div>
       </div>
     </div>
