@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero';
+import ExperienceTimeline from '../components/ExperienceTimeline';
+import AboutSection from '../components/AboutSection';
+import ProjectSpotlight from '../components/ProjectSpotlight';
+import Toolkit from '../components/Toolkit';
+---
+
+<BaseLayout title="Nikolay Pomytkin · Software Engineer" description="Portfolio and writing by Nikolay Pomytkin, a New York City based software engineer.">
+  <Hero client:load />
+  <AboutSection client:load />
+  <ExperienceTimeline client:load />
+  <ProjectSpotlight client:load />
+  <Toolkit client:load />
+</BaseLayout>

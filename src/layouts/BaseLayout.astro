@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+const { title = 'Nikolay Pomytkin', description = 'Software engineer crafting human-centered products.' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="/">
+        <strong>Nikolay Pomytkin</strong>
+      </a>
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="https://github.com/Nikolay-Pomytkin" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/nikolay-pomytkin" target="_blank" rel="noreferrer">LinkedIn</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h3 style="font-family: var(--font-serif);">Let’s build something thoughtful</h3>
+          <p>
+            Looking for hybrid or in-person software engineering roles in New York City.
+          </p>
+        </div>
+        <div>
+          <strong>Contact</strong>
+          <p>
+            <a href="mailto:nik@pomytkin.com">nik@pomytkin.com</a>
+          </p>
+        </div>
+        <div>
+          <strong>Elsewhere</strong>
+          <p>
+            <a href="https://github.com/Nikolay-Pomytkin" target="_blank" rel="noreferrer">GitHub</a><br />
+            <a href="https://www.linkedin.com/in/nikolay-pomytkin" target="_blank" rel="noreferrer">LinkedIn</a><br />
+            <a href="https://x.com/pomytkin" target="_blank" rel="noreferrer">X (Twitter)</a>
+          </p>
+        </div>
+      </div>
+      <small>© {new Date().getFullYear()} Nikolay Pomytkin. Crafted with Astro & React.</small>
+    </footer>
+  </body>
+</html>

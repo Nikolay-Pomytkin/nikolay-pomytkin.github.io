@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogList from '../components/BlogList';
+---
+
+<BaseLayout title="Writing · Nikolay Pomytkin" description="Essays and notes by Nikolay Pomytkin on engineering and design.">
+  <BlogList client:load />
+</BaseLayout>
