@@ -44,7 +44,7 @@ main {
 }
 
 section + section {
-  margin-top: clamp(4rem, 10vw, 6rem);
+  margin-top: clamp(10rem, 18vw, 16rem);
 }
 
 h1, h2, h3, h4 {
@@ -63,10 +63,10 @@ p {
 .tagline {
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: rgba(15, 23, 42, 0.55);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .card-grid {

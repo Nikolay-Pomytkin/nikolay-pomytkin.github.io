@@ -32,7 +32,7 @@ const itemVariants = {
 
 export function ProjectSpotlight() {
   return (
-    <section>
+    <section style={{ marginTop: 'clamp(7rem, 12vw, 10rem)' }}>
       <span className="tagline">Selected Work</span>
       <div style={{ display: 'grid', gap: '1.5rem' }}>
         <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}>Work shaped by real-world operations.</h2>
@@ -41,7 +41,7 @@ export function ProjectSpotlight() {
           workflows to launching a full-stack product from scratch.
         </p>
       </div>
-      <div className="card-grid" style={{ marginTop: '2.5rem' }}>
+      <div className="card-grid" style={{ marginTop: '3.5rem' }}>
         {projects.map((project, index) => (
           <motion.article
             key={project.title}

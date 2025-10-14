@@ -53,7 +53,7 @@ const variants = {
 
 export function ExperienceTimeline() {
   return (
-    <section>
+    <section style={{ marginTop: 'clamp(7rem, 12vw, 10rem)' }}>
       <span className="tagline">Experience</span>
       <div style={{ display: 'grid', gap: '1.5rem' }}>
         <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}>
@@ -64,7 +64,7 @@ export function ExperienceTimeline() {
           outcomes highlighted on my resume.
         </p>
       </div>
-      <div style={{ marginTop: '2.5rem', display: 'grid', gap: '1.25rem' }}>
+      <div style={{ marginTop: '3.5rem', display: 'grid', gap: '1.25rem' }}>
         {experiences.map((experience, index) => (
           <motion.article
             key={`${experience.company}-${experience.period}`}

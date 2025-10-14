@@ -29,7 +29,7 @@ const variants = {
 
 export function AboutSection() {
   return (
-    <section>
+    <section style={{ marginTop: 'clamp(7rem, 12vw, 10rem)' }}>
       <span className="tagline">About</span>
       <div className="surface-card" style={{ display: 'grid', gap: '1.75rem' }}>
         <div style={{ display: 'grid', gap: '1rem' }}>

@@ -38,7 +38,7 @@ const variants = {
 
 export function Toolkit() {
   return (
-    <section>
+    <section style={{ marginTop: 'clamp(7rem, 12vw, 10rem)' }}>
       <span className="tagline">Toolkit</span>
       <div style={{ display: 'grid', gap: '1.5rem' }}>
         <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}>Skills refined in production.</h2>
@@ -47,7 +47,7 @@ export function Toolkit() {
           compliant, resilient software.
         </p>
       </div>
-      <div className="card-grid" style={{ marginTop: '2.5rem' }}>
+      <div className="card-grid" style={{ marginTop: '3.5rem' }}>
         {skills.map((skill, index) => (
           <motion.article
             key={skill.title}
